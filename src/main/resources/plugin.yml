@@ -1,0 +1,9 @@
+name: GreenCycler
+version: '${version}'
+main: fr.cakihorse.greencycler.Main
+authors: [cakihorse]
+description: plugin for my own server
+website: https://cakihorse.fr
+commands:
+  tri:
+    description: cmd tri gui
