@@ -7,5 +7,5 @@ It contains many classes (enums), wich are used for list all type of blocs by ca
 it'll take a few time to be done ! :)
 Be patient :)
 
-Made with ❤️ by @cakihorse
+Made with ❤️ by @cakihorse.
 
