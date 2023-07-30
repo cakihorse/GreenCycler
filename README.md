@@ -3,7 +3,7 @@ Echocraft’s selective sorting plugin.
 
 # Infos :
 GreenCycler is used by echocraft for create the system of selective sorting. 
-It contains many classes (enums), enums are used for list all type of blocs by category. 
+It contains many classes (enums), wich are used for list all type of blocs by category. 
 it'll tale a few moment to be done ! :)
 Be patient :)
 
