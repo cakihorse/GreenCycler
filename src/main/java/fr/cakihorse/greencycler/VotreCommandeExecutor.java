@@ -20,6 +20,7 @@ public class VotreCommandeExecutor implements CommandExecutor {
     }
 
     private void openTriGui(Player player) {
+        System.out.println("création du gui");
         TriGui triGui = new TriGui();
         player.openInventory(triGui.getInventory());
     }

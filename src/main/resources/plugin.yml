@@ -7,3 +7,4 @@ website: https://cakihorse.fr
 commands:
   tri:
     description: cmd tri gui
+    permission: tricmd.gui

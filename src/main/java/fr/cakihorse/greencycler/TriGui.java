@@ -12,9 +12,13 @@ public class TriGui implements InventoryHolder {
     public TriGui() {
         // Créez l'inventaire du GUI avec 9 emplacements (1 rangée)
         inventory = Bukkit.createInventory(this, 9, "Poubelle de Tri Jaune");
+        System.out.println("gui créer");
         // Remplissez l'inventaire avec les éléments souhaités, y compris la poubelle de tri jaune
         // Vous pouvez utiliser ItemStacks personnalisés ici pour représenter la poubelle de tri jaune
         inventory.setItem(4, createYellowTrashItem()); // Exemple : Place la poubelle de tri jaune au milieu de l'inventaire
+        inventory.setItem(5, createGreenTrashItem());
+        inventory.setItem(3, createDisposableTrashItem());
+
     }
 
     @Override
@@ -26,6 +30,15 @@ public class TriGui implements InventoryHolder {
     private ItemStack createYellowTrashItem() {
         // Créez un nouvel ItemStack en fonction de votre choix (voir les APIs de Bukkit/Spigot)
         return new ItemStack(Material.YELLOW_FLOWER);
+    }
+
+    private ItemStack createGreenTrashItem() {
+        // Créez un nouvel ItemStack en fonction de votre choix (voir les APIs de Bukkit/Spigot)
+        return new ItemStack(Material.GRASS);
+    }
+    private ItemStack createDisposableTrashItem() {
+        // Créez un nouvel ItemStack en fonction de votre choix (voir les APIs de Bukkit/Spigot)
+        return new ItemStack(Material.CAULDRON);
     }
 
     // Ajoutez des méthodes supplémentaires pour gérer les clics sur les éléments du GUI si nécessaire
